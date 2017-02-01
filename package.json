@@ -1,0 +1,30 @@
+{
+  "name": "skeletop app",
+  "version": "1.0.0",
+  "description": "skeleton app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "chat",
+    "streaming"
+  ],
+  "author": "chocolatejs team",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.1",
+    "morgan": "~1.7.0",
+    "nodemon": "^1.11.0"
+  }
+}
